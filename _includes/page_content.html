@@ -1,104 +1,16 @@
-<section id="services">
-<!-- Page Content -->
-{% for post in site.posts reversed %}
-  {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-    {% if thecycle == 'odd' %}
-    <div class="content-section-a">
+    <!-- About Section -->
+    <section id="services" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+              <br/><br/>
+              <h3>Projects</h3>
+              <br/>
+                <p>
+I’m a London based web developer passionate about all things digital.  Previously to this I spent two years in a sales role before taking what I learnt there and applying my knowledge to digital products.  I spent two years at 1ROOF a london based startup growing the website traffic by 60%. </p>
 
-        <div class="container">
+<p> Frustrated by not being able to work fast enough due to technical limitation I decided to attend the General Assembly Web Development program</p>
 
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Escape</h2>
-                    <h3>A Javascript game</h3>
-                    
-                    <a href="https://bibliotheque-monsieur-1632.herokuapp.com/"> Check out the website</a>
-                    <div class="lead">A Javascript game built after two weeks of learning how to programme</div>
-                    <h3>Tools and technology used:</h3>
-                    <ul>
-                        <li>Javscript</li>
-                        <li>Jquery</li>
-                        <li>HTML</li>
-                    </ul>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img id="chapo" class="img-responsive" src="img/services/Chapo.png" alt="">
-                </div>
-            </div>
 
+              </div>
         </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-a -->
-    {% else %}
-
-    <div class="content-section-b">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Extreme Advisor</h2>
-                    <div class="lead"><h1>Hello</h1></div>
-                </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                  <img class="img-responsive" src="img/services/{{ post.img }}" alt="">
-                </div>
-            </div>
-    
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-b -->
-    <div class="content-section-a">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Escape</h2>
-                    <a href="https://bibliotheque-monsieur-1632.herokuapp.com/"> Check out the website</a>
-                    <div class="lead">{{ post.content }}</div>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/services/{{ post.img }}" alt="">
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-
-    <div class="content-section-b">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Ibiza</h2>
-                    <a href="https://bibliotheque-monsieur-1632.herokuapp.com/"> Check out the website</a>
-                    <div class="lead">{{ post.content }}</div>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/services/{{ post.img }}" alt="">
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    {% endif %}
-{% endfor %}
-</section>
+    </section>
