@@ -1,0 +1,18 @@
+#chapo {
+  height: 100%;
+  width: 70%;
+  border-radius: 25px
+}
+
+ul {
+  list-style-type: none;
+}
+
+.intro-header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/services/home.jpg) no-repeat center center;
+    background-size: cover;
+}
