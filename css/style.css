@@ -19,7 +19,7 @@ ul {
 
 .intro-message {
   position: relative;
-  top:250px;
+  top: 80px;
 }
 
 
@@ -61,4 +61,7 @@ body {
   background-image: url(../img/services/confectionary.png);
 }
 
+#break {
+  margin-top: 50px'
+}
 
